@@ -13,6 +13,9 @@ if [ "$1" != "" ] && [ "$2" != "" ];then
 		echo "Unknown \$1. Supported ones are 'file' and 'stdin'"
 		exit 1
 	fi	
+elif [ "$1" != "file" ] || [ "$1" != "stdin" ];then
+	echo "Unknown \$1. Supported ones are 'file' and 'stdin'"
+	exit 1
 else
 	echo -e "No input."
 fi
