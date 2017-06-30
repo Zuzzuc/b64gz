@@ -2,7 +2,7 @@
 # License: The MIT License (MIT)
 # Author Zuzzuc https://github.com/Zuzzuc
 
-# This script generates a base64 encoded gzip string, which outputs to stdout, whose main goal is to be able to include longer code snippets as a one line in case of complicated script structure resulting in failed minification with other methods.
+# This script generates a base64 encoded gzip string, which outputs to stdout, whose main goal is to be able to include longer code snippets as a one line in case of complicated script structure resulting in failed minification with normal methods.
 
 if [ "$1" != "" ] && [ "$2" != "" ];then		
 	if [ "$1" == "file" ];then
